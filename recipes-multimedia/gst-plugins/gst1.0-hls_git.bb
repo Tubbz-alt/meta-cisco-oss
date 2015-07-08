@@ -1,10 +1,9 @@
 require gst-hls_git.inc
 
-PR = "r1"
+PR = "r2"
 
-#inherit ciscobyos
 
-SRCREV = "1f19d45c52e2343eb0910de04a61ff28459bd81a"
+SRCREV = "1955260f4d92d80035eb45de64f371d9b38bf1d1"
 PV = "1.0+git${SRCPV}"
 
 DEPENDS = "gstreamer1.0 gstreamer1.0-plugins-base libhls"
